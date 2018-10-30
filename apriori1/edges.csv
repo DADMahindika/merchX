@@ -1,0 +1,10 @@
+source,target,type
+4,1,Directed
+5,1,Directed
+1,6,Directed
+7,2,Directed
+5,2,Directed
+2,6,Directed
+8,3,Directed
+5,3,Directed
+3,6,Directed

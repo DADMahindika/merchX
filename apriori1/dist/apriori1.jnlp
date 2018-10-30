@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="apriori1.jnlp">
+  <information>
+    <title>apriori1</title>
+    <vendor>Dilki Mahindika</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="apriori1.jar" size="31134" download="eager" />
+    <jar href="lib\commons-lang3-3.0.1.jar" size="312866" download="eager" />
+    <jar href="lib\guava.jar" size="1501575" download="eager" />
+    <jar href="lib\itextpdf-5.3.5.jar" size="1852860" download="eager" />
+    <jar href="lib\opencsv-2.2.jar" size="12771" download="eager" />
+    <jar href="lib\weka.jar" size="3868566" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="apriori1" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="apriori1.Apriori1"  name="apriori1" />
+  <update check="always"/>
+</jnlp>
